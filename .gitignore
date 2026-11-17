@@ -1,0 +1,16 @@
+# Sistema operativo y editores
+.DS_Store
+Thumbs.db
+.idea/
+
+# Variables de entorno y secretos (solo se sube el .env.example)
+.env
+.env.*
+!.env.example
+
+# Bases de datos y respaldos: nunca se suben
+*.bak
+*.mdf
+*.ldf
+*.ndf
+*.bacpac
